@@ -242,3 +242,330 @@
 .second-container .drinks-option .cold-coffee {
     color: #7B4019;
 }
+
+.third-container {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.top-menu {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third-container .top-menu h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.third-container .top-menu h2 span {
+    text-decoration: underline #FFBB70;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 4px;
+}
+
+.cold-container {
+    width: 100%;
+    display: flex;
+    margin: 50px auto;
+}
+
+.cold-container .spacing {
+    margin: 0 10px;
+}
+
+.frappe {
+    width: 300px;
+    height: 460px;
+    display: block;
+    background-color: #854836;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+
+.frappe .img-frappe {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+
+.frappe .img-frappe img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: 15px 20px;
+}
+
+.frappe h3 {
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px 0;
+    margin-left: 15px;
+}
+
+.frappe p {
+    width: 230px;
+    margin-left: 20px;
+    color: #F6E6CB;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+.frappe .price-order {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 100px;
+}
+
+.frappe .price-order h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.frappe .price-order button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #A34A28;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 2px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.macchiato {
+    width: 350px;
+    height: 520px;
+    display: block;
+    background-color: #FFBB70;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 25px;
+}
+
+.macchiato .img-macchiato{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+
+.macchiato .img-macchiato img {
+    width: 270px;
+    height: 170px;
+    display: block;
+    margin: 20px 20px;
+}
+
+.macchiato h3 {
+    color: #7B4019;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.macchiato p {
+    width: 260px;
+    margin-left: 20px;
+    color: #A34A28;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+.macchiato .price-order {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    gap: 100px;
+}
+
+.macchiato .price-order h3 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.macchiato .price-order button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #A34A28;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.affogato {
+    width: 300px;
+    height: 460px;
+    display: block;
+    background-color: #854836;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+
+.affogato .img-affogato{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+
+.affogato .img-affogato img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: 15px 20px;
+}
+
+.affogato h3 {
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.affogato p {
+    width: 240px;
+    margin-left: 20px;
+    color: #F6E6CB;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+.affogato .price-order {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 75px;
+}
+
+.affogato.price-order h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.affogato .price-order button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #A34A28;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 2px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cold-brew {
+    width: 300px;
+    height: 460px;
+    display: block;
+    background-color: #854836;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cold-brew .img-brew{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+}
+
+.cold-brew .img-brew img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: 15px 20px;
+}
+
+.cold-brew h3 {
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.cold-brew p {
+    width: 230px;
+    margin-left: 20px;
+    color: #F6E6CB;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+.cold-brew .price-order {
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+    gap: 100px;
+}
+
+.cold-brew .price-order h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.cold-brew .price-order button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #A34A28;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 2px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.prev {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #A34A28;
+    position: absolute;
+    left: 215px;
+    margin-top: 200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.next {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #A34A28;
+    position: absolute;
+    right: 160px;
+    margin-top: 200px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
