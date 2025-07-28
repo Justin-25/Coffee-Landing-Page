@@ -25,6 +25,7 @@
     width: fit-content;
     height: fit-content;
     padding-right: 300px;
+    cursor: pointer;
 }
 
 .header-top .logo img {
@@ -159,6 +160,10 @@
 .first-section button:hover {
     background-color: #FFBB70;
     cursor: pointer;
+}
+
+.first-section button:hover .cart-svg {
+    background-color: #521C0D;
 }
 
 .first-section button .cart-svg {
@@ -550,6 +555,7 @@
     position: absolute;
     left: 215px;
     margin-top: 200px;
+    cursor: pointer;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -567,5 +573,149 @@
     position: absolute;
     right: 160px;
     margin-top: 200px;
+    cursor: pointer;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fourth-container {
+    width: 100%;
+    height: 200px;
+    background-color: #F4E7E1;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.fourth-container .fourth-info {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.fourth-container .fourth-info img {
+    width: 130px;
+    margin-right: 30px;
+}
+
+.fourth-container .fourth-info .star-info h3 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #1A120B;
+    margin-bottom: 20px;
+}
+
+.fourth-container .fourth-info .star-info p {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #1A120B;
+}
+
+.fifth-container {
+    width: 100%;
+    display: block;
+}
+
+.fifth-container .fifth-ordering {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.fifth-container .fifth-ordering h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.fifth-container .fifth-ordering h2 span {
+    text-decoration: underline #FFBB70;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 4px;
+}
+
+.fifth-container .fifth-ordering .fifth-menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+
+.fifth-menu .menu {
+    display: block;
+    background-color: #854836;
+    margin: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.3);
+} 
+
+.fifth-menu .menu img {
+    display: block;
+    height: 150px;
+    width: 230px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.fifth-menu .frappe-img{
+    height: 150px;
+    width: 230px;
+    background-image: url(./assets/menu_item_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.fifth-menu h3 {
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.fifth-menu .fifth-price {
+    width: 100%;
+    display: flex;
+    margin: 5px 20px;
+    gap: 60px;
+}
+
+.fifth-menu .fifth-price p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.fifth-menu .fifth-price button {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #A34A28;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.menu button:hover {
+    cursor: pointer;
+}
+
+.menu button:hover ~ .menu, 
+.menu:hover {
+    background-color: #FFBB70;
 }
