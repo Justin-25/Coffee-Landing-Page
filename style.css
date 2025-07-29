@@ -719,3 +719,39 @@
 .menu:hover {
     background-color: #FFBB70;
 }
+
+.sixth-container {
+    height: 500px;
+    width: 100%;
+    display: block;
+    background-color: #F3E2D4;
+    margin-bottom: 100px;
+}
+
+.sixth-container .banner-info {
+    display: flex;
+    width: 1200px;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.sixth-container .banner-info .barista-container {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 8px 2px 8px;
+    background-color: #fff;
+    margin: 45px 0;
+    border-radius: 10px;
+}
+
+.sixth-container .banner-info .barista-container img {
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.sixth-container .banner-info .barista-info {
+    display: block;
+    margin: 50px 150px;
+}
